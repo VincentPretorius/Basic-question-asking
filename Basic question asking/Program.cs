@@ -21,8 +21,10 @@ namespace C__Lesson_Strings
             String answer = Console.ReadLine();
              if (answer == "yes")
                 Console.Write("We can forgive a honest liar"); 
-             else
-                    Console.WriteLine("We know you are lying, there will be consequences " + name); 
+             else if (answer == "no")
+                Console.WriteLine("We know you are lying, there will be consequences " + name);
+            else
+                Console.WriteLine("You are dumb " + name); 
             
 
 
