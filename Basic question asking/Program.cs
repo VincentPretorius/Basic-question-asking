@@ -19,9 +19,10 @@ namespace C__Lesson_Strings
             String age = Console.ReadLine();
             Console.WriteLine("Hello " + name + " Are you lying about being " + age);
             String answer = Console.ReadLine();
-            if (answer == "yes") 
-                Console.Write("We can forgive a honest liar");
-            else Console.WriteLine("We know you are lying, there will be consequences " + name);
+             if (answer == "yes")
+                Console.Write("We can forgive a honest liar"); 
+             else
+                    Console.WriteLine("We know you are lying, there will be consequences " + name); 
             
 
 
